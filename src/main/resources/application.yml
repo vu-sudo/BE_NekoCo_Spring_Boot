@@ -1,0 +1,29 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: owsscPcfStH1CsZIlp9UYaKAb4D3gTKQwD7nmM5xIMz+cOV0xhAovcp1pRDwL8JapuoHiIpxdChmVIS9ZMNOKQ==
+    username: BOcbeiPeszBbgJErUaQF1eSY5ECvSJkj+yDmrte6NdA=
+    password: VhCPmGUZFikgzAS/1iNn4wen578X7eP/rh2GjjLStyA=
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      idle-timeout: 60000
+      connection-timeout: 30000
+  jpa:
+#    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQLDialect
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: meowcoapps@gmail.com
+    password: uwxuojgtxazchbzz
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
